@@ -19,7 +19,7 @@ changes in name popularity including across different regions and decades.
 
 ### Data Sources
 
-The primary dataset used for this analysis is from "names_data.csv" file, containing detailed information about each name, year and location.
+The primary dataset used for this analysis is from "names_data.csv" file, containing detailed information about baby names, and the year and location of their births.
 
 ### Tools
 
@@ -37,8 +37,7 @@ EDA involved exploring the sales data to answer key questions, such as:
 - I provided a document to the answers and questions to my analysis.
 
 ### Results
-The most ordered item on the menu were hamburgers. However, when evaluating the the most expensive food orders, italian food was the most commonly spent item. 
+
 
 ### Recommendations
-From this database, the highest spend orders were primarily on italian food. The high priced italian food should remain on the menu since people are ordering them a lot
-especially from the highest spent customers.
+From this database, 
