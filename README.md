@@ -33,10 +33,10 @@ EDA involved exploring the sales data to answer key questions, such as:
 names (those with the fewest characters) and long names (those with the most characters)
 
 ### Data Analysis
-Objective 1: Track changes in name popularity
-Objective 2: Compare popularity across decades
-Objective 3: Compare popularity across regions
-Objective 4: Explore unique names
+- Objective 1: Track changes in name popularity
+- Objective 2: Compare popularity across decades
+- Objective 3: Compare popularity across regions
+- Objective 4: Explore unique names
 
 ### Results
 Michael was the most popular boy name
