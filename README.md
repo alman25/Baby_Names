@@ -40,6 +40,6 @@ This project explores trends in baby name popularity across the United States us
 
 • Determine the shortest and longest names by character length and identify the most popular names in each category
 
-• Find the state with the highest percentage of babies named “Chris,” a tribute to the founder of Maven Analytics
+• Find the state with the highest percentage of babies named “Chris”
 
 This project demonstrates strong SQL skills through filtering, joins, aggregations, window functions, and ranking functions, producing insightful and engaging results on naming trends in the U.S. over three decades.
