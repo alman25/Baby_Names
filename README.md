@@ -3,45 +3,43 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
-- [Tools](#tools)
-- [Exploration Data Analysis](#exploration-data-analysis)
-- [Data Analysis](#data-analysis)
-- [Results](#results)
+- [About](#about)
+- [Track Changes in Name Popularity](#track-changes-in-name-popularity)
+- [Compare Popularity Across Decades](#compare-popularity-across-decades)
+- [Compare Popularity Across Regions](#compare-popularity-across-regions)
+- [Explore Unique Names in the Dataset](#explore-unique-names-in-the-dataset)
 
-### Project Overview
+## Project Overview
 ---
 
-This data analysis project aims to view trends in baby names based on US social security data from 1980-2009. By analyzing various trends, we can track
-changes in name popularity including across different regions and decades.
+### About
 
-### Data Sources
+This project explores trends in baby name popularity across the United States using MySQL and Social Security data from 1980 to 2010. The goal is to uncover meaningful insights about naming patterns over time, across regions, and within unique categories. The analysis focuses on:
 
-The primary dataset used for this analysis is from "names_data.csv" file, containing detailed information about baby names, and the year and location of their births.
+### Track Changes in Name Popularity
 
-### Tools
+• Identify the overall most popular girl and boy names and how their rankings evolved over the years
 
-- SQL - Data Analysis
+• Find names with the biggest jumps in popularity between 1980 and 2010
 
-### Exploration Data Analysis
+### Compare Popularity Across Decades
 
-EDA involved exploring the sales data to answer key questions, such as:
+• Retrieve the top 3 most popular girl and boy names for each year
 
-- What are the overall most popular girl and boy names? How they have changed in popularity rankings over the years.
-- Find the 10 most popular androgynous names (names given to both females and males)
-- Find the length of the shortest and longest names and identify the most popular short
-names (those with the fewest characters) and long names (those with the most characters)
+• Retrieve the top 3 most popular girl and boy names for each decade
 
-### Data Analysis
-- Objective 1: Track changes in name popularity
-- Objective 2: Compare popularity across decades
-- Objective 3: Compare popularity across regions
-- Objective 4: Explore unique names
+### Compare Popularity Across Regions
 
-### Results
-Michael was the most popular boy name
-Jessica was the most popular girl name
+• Count the number of babies born in each of the six U.S. regions (with MI included in the Midwest)
 
-Michael was also the most popular androgynous name (names given to both females and males)
+• Return the top 3 most popular girl and boy names within each region
 
-Ty was the most popular name with the fewest characters and Franciscojavier was the most popular name with the most characters
+### Explore Unique Names in the Dataset
+
+• Identify the 10 most popular androgynous names (used for both genders)
+
+• Determine the shortest and longest names by character length and identify the most popular names in each category
+
+• Find the state with the highest percentage of babies named “Chris,” a tribute to the founder of Maven Analytics
+
+This project demonstrates strong SQL skills through filtering, joins, aggregations, window functions, and ranking functions, producing insightful and engaging results on naming trends in the U.S. over three decades.
